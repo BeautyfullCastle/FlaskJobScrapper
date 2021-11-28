@@ -7,7 +7,7 @@ db = {}
 
 @app.route("/")
 def home():
-  return render_template("potato.html")
+  return render_template("main.html")
 
 @app.route("/<username>")
 def contact(username):
